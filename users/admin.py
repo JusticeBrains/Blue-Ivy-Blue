@@ -13,5 +13,5 @@ class CustomUserAdmin(UserAdmin):
     form = CustomUserChangeForm
     add_form = CustomUserCreationForm
 
-    list_display = ('username', 'name', 'email','is_superuser')
-    search_fields = ('name',)
+    list_display = ['username', 'email','is_superuser']
+    search_fields = ['username',]
