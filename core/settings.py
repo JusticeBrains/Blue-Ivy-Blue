@@ -40,6 +40,7 @@ INSTALLED_APPS = [
 
     # local apps
     'users.apps.UsersConfig',
+    'blog.apps.BlogConfig',
 
     # third party apps
     'django_extensions',
